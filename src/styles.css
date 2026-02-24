@@ -62,6 +62,12 @@ input{
     
 }
 
+@media (max-width: 768px) {
+  .dataContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
 .tempContainer{
     min-height:50px;
     display:flex;
