@@ -1,5 +1,4 @@
 import './styles.css';
-import gloading from './image-folder/gray-loading.gif';
 import {tempContainer, displayDetails, titleList, loadingLayoutContainer} from './ui.js';
 
 const form = document.querySelector('.searchFeildContainer');
@@ -23,6 +22,7 @@ export let weatherDetailsArray=[];
         })
     .catch(er=>{
       console.log(er),
+      alert("Failed to Fetch Information, Try again.");
       loadingLayoutContainer.remove();
     });
 }

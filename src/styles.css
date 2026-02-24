@@ -42,6 +42,7 @@ input{
     position:relative;
     min-height:270px;
     background: linear-gradient(to bottom, #4e73df, #1cc88a);
+    max-width:1091px;
 }
 
 .dataContainer{

@@ -12,6 +12,9 @@
         path:path.resolve(__dirname, 'docs'),
         clean: true,
     },
+   performance: {
+  hints: false,
+},
 
     plugins:[
         new HtmlWebpackPlugin({
